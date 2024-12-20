@@ -39,6 +39,9 @@
   "extra": {
     "symfony": {
       "allow-contrib": true,
+      "endpoint": {
+        "custom-recipes": "https://github.com/inigo-aldama/inmovilla-symfony-recipes"
+      },
       "require": "5.4.* || 6.0.*"
     }
   },

@@ -5,7 +5,7 @@ namespace Inmovilla\ApiProxyBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
-use Inmovilla\Proxy\Service\ProxyService;
+use Inmovilla\Proxy\ProxyService;
 
 class ProxyController extends AbstractController
 {

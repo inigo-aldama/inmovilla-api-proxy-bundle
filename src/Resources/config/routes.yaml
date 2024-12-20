@@ -1,0 +1,5 @@
+inmovilla_proxy_route:
+  path: /inmovilla/proxy
+  controller: Inmovilla\ApiProxyBundle\Controller\ProxyController::proxy
+  methods: [POST]
+

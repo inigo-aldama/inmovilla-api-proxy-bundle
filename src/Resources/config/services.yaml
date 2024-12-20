@@ -1,0 +1,4 @@
+services:
+  Inmovilla\Proxy\ProxyService:
+    arguments:
+      $apiClientConfig: '%inmovilla.api_client_config%'

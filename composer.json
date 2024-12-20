@@ -1,0 +1,58 @@
+{
+  "name": "inigo-aldama/inmovilla-api-proxy-bundle",
+  "description": "A Symfony bundle to proxy Inmovilla API requests, handling IP-based access restrictions.",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Iñigo Aldama",
+      "email": "inigoaldama@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "symfony/framework-bundle": "^5.4 || ^6.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "inigo-aldama/inmovilla-api-client-bundle": "^1.0",
+    "inigo-aldama/inmovilla-api-proxy": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "friendsofphp/php-cs-fixer": "^3.0",
+    "phpstan/phpstan": "^1.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Inmovilla\\ApiProxyBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Inmovilla\\ApiProxyBundle\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit --testdox tests",
+    "fix": "php-cs-fixer fix",
+    "analyze": "phpstan analyse"
+  },
+  "extra": {
+    "symfony": {
+      "allow-contrib": true,
+      "require": "5.4.* || 6.0.*"
+    }
+  },
+  "keywords": [
+    "inmovilla",
+    "api-proxy",
+    "proxy",
+    "real estate",
+    "symfony",
+    "php"
+  ],
+  "homepage": "https://github.com/inigo-aldama/inmovilla-api-proxy-bundle",
+  "support": {
+    "issues": "https://github.com/inigo-aldama/inmovilla-api-proxy-bundle/issues",
+    "source": "https://github.com/inigo-aldama/inmovilla-api-proxy-bundle"
+  }
+}
